@@ -20,6 +20,7 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav>
       <div class="left">
         <a href="/">Yuan Misoles</a>
@@ -29,28 +30,29 @@
           <i class="fa-brands fa-github"></i>
           <span>Github</span>
         </a>
-
         <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
           <i class="fa-brands fa-linkedin"></i>
           <span>Linkedin</span>
         </a>
-
         <a href="mailto:yuanmisoles23@gmail.com">
           <i class="fa-solid fa-envelope"></i>
           <span>Email</span>
         </a>
       </div>
     </nav>
+
+    <!-- MAIN CONTENT -->
     <main>
       <!-- Section 1: Hero -->
       <section class="hero-section">
         <div class="text">
           <h2>Hi, I'm Yuan</h2>
           <p>
-            I am a passionate Bachelor of Science in Information Technology
-            student from the University of Mindanao. I enjoy developing web
-            applications, learning new technologies, and building projects that
-            solve real-world problems.
+            I am a Bachelor of Science in Information Technology student at the
+            University of Mindanao. I enjoy creating web applications, learning
+            new technologies, and building projects that solve real-world
+            problems. My goal is to grow as a developer and contribute to
+            innovative solutions in the IT field.
           </p>
           <div class="links">
             <a href="#skills">
@@ -72,36 +74,82 @@
           <img src="images/Profile.jpg" alt="Yuan Misoles headshot" />
         </div>
       </section>
+
       <!-- Section 2: Skills-->
-      <section id="Skills">
+      <section id="skills" class="skills-section">
         <h2>Skills</h2>
         <div class="text">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-          exercitationem quam maxime. Eligendi dicta amet, voluptates maxime
-          voluptate suscipit quae voluptatum doloribus iusto blanditiis nemo eos
-          reiciendis modi quaerat necessitatibus?
+          I have hands-on experience in web and software development. I enjoy
+          creating responsive websites using HTML and CSS, building interactive
+          applications with Java and Python, and managing databases with MySQL.
+          I am always eager to learn new technologies and improve my skills.
         </div>
         <div class="cells">
           <div class="cell">
-            <img src="images/html-logo.jpg" alt="html-logo" />
+            <img src="images/html.png" alt="html-logo" />
             <span>HTML</span>
           </div>
           <div class="cell">
-            <img src="images/css-logo.jpg" alt="html-logo" />
-            <span>HTML</span>
+            <img src="images/css.png" alt="css-logo" />
+            <span>CSS</span>
           </div>
           <div class="cell">
-            <img src="images/html-logo.jpg" alt="html-logo" />
-            <span>HTML</span>
+            <img src="images/java.png" alt="java-logo" />
+            <span>Java</span>
           </div>
           <div class="cell">
-            <img src="images/html-logo.jpg" alt="html-logo" />
-            <span>HTML</span>
+            <img src="images/python.png" alt="python-logo" />
+            <span>Python</span>
+          </div>
+          <div class="cell">
+            <img src="images/sql.png" alt="sql-logo" />
+            <span>MySQL</span>
           </div>
         </div>
       </section>
-      <section id="Testimony"></section>
-      <section id="Contact"></section>
+
+      <!-- Section 3: Testimony -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+        <div class="group">
+          <div class="person-details">
+            <img src="images/Profile.jpg" alt="Yuan Misoles" />
+            <p>Yuan Misoles</p>
+            <p>BSIT Student</p>
+          </div>
+
+          <div class="text">
+            I am a dedicated IT student with a passion for learning and building
+            projects that make a difference. I enjoy problem-solving, coding,
+            and exploring new technologies. My goal is to continuously grow my
+            skills and contribute to meaningful projects in the field of
+            information technology. I am committed to improving myself and
+            sharing my knowledge with others.
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            I am always open to collaboration and new opportunities. If you have
+            a project idea, need assistance with web or software development, or
+            want to connect professionally, feel free to reach out. I will be
+            happy to respond and discuss how we can work together.
+          </div>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
